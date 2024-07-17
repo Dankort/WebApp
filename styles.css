@@ -1,0 +1,74 @@
+import streamlit as st
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #262730;
+    color: #adb5bd;
+}
+
+/* Title */
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Select boxes */
+div[data-baseweb="select"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Slider */
+div[data-baseweb="slider-container"] {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Button */
+div[data-baseweb="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover */
+div[data-baseweb="button"]:hover {
+    background-color: #0056b3;
+}
+
+/* Success message */
+div[data-baseweb="toast-success"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Error message */
+div[data-baseweb="toast-error"] {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Checkbox */
+div[data-baseweb="checkbox"] {
+    margin-bottom: 20px;
+}
+
+/* Plotly charts */
+div[id^="stPlotly"] {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
